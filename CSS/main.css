@@ -51,6 +51,17 @@ img {
   display: block;
 }
 
+:root {
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --accent-color-heder: #2196f3;
+  --accent-color-footer: #ff6347;
+  --all-text-color: #212121;
+  --background-main-color: #ffffff;
+  --gray: rgba(117, 117, 117, 1);
+  --footer-color: #2f303a;
+}
+
 .conteiner {
   margin-left: auto;
   margin-right: auto;
@@ -844,5 +855,35 @@ a[href="https://goo.gl/maps/fY5pNtDdv6tUA1cWA"] {
   /* border: 1px solid var(--accent-color-heder); */
   border-radius: 2px;
   border: none;
+}
+
+.modal-form-btn {
+  display: block;
+  margin: 0 auto;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
+  border-radius: 4px;
+  padding: 10px 55px;
+  cursor: pointer;
+  color: var(--background-main-color);
+  background: var(--accent-color-heder);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  font-family: var(--main-font);
+  width: 200px;
+  height: 50px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-form-textp {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--all-text-color);
+  margin-bottom: 12px;
 }
 /*# sourceMappingURL=main.css.map */

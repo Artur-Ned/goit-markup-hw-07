@@ -1,4 +1,6 @@
-html {
+
+/* --++++++++сСБРОС СТИЛЕЙ-- */
+/* html {
   box-sizing: border-box;
 }
 
@@ -35,7 +37,7 @@ p {
 }
 img {
   display: block;
-}
+} */
 
 :root {
   --main-font: "Roboto", sans-serif;
@@ -51,14 +53,17 @@ img {
 /*outline: 2px soloid tomato - рамка*/
 
 /*----------BODY------------*/
+
+
+/* @import "./base/conteiner";
 .conteiner {
   margin-left: auto;
   margin-right: auto;
   max-width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  /* outline: 2px solid tomato; */
-}
+  
+} */
 
 body {
   font-family: var(--main-font);
@@ -1001,6 +1006,8 @@ color: var(--gray);
   border: none;
 }
 
+
+/*  @import "./utils/visually-hidden";
 .visually-hidden {
    position: absolute;
     width: 1px;
@@ -1012,7 +1019,7 @@ color: var(--gray);
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-}
+} */
 
 .modal-form-btn {
   display: block;
@@ -1043,9 +1050,7 @@ color: var(--all-text-color);
 margin-bottom: 12px;
 }
 
-.modal-form-text {
 
-}
 /*======================END BACKDROP===============*/
 
 

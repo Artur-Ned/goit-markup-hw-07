@@ -1,18 +1,13 @@
 .exlus-list {
   display: flex;
-  /* flex-wrap: wrap;
-  justify-content: space-between; */
 }
 
 .exlus-item {
-  /* margin-left: 0px;
-  margin-top: 0px; */
-  /* width: calc((100% - 90px) / 4); */
   width: 270px;
-}
 
-.exlus-item:not(:last-child) {
-  margin-right: 30px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .exclusivity {

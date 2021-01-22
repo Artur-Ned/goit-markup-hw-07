@@ -107,6 +107,11 @@
     color: var(--accent-color-heder);
     text-decoration: none;
     outline: none;
+
+    & .heder-tell-icon {
+      fill: var(--accent-color-heder);
+      outline: none;
+    }
   }
 }
 
@@ -118,15 +123,12 @@
     color: var(--accent-color-heder);
     text-decoration: none;
     outline: none;
-  }
-}
 
-.header-mail:hover .heder-mail-icon,
-.header-mail:focus .heder-mail-icon,
-.header-tel:hover .heder-tell-icon,
-.header-tel:focus .heder-tell-icon {
-  fill: var(--accent-color-heder);
-  outline: none;
+    & .heder-mail-icon {
+      fill: var(--accent-color-heder);
+      outline: none;
+    }
+  }
 }
 
 .heder-mail-icon,
